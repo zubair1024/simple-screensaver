@@ -53,48 +53,48 @@ html, body {
 }
 @-webkit-keyframes change-text {
   0% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“It’s not my fault.” – Han Solo';
   }
   14.2857142857% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“Your focus determines your reality.” – Qui-Gon Jinn';
   }
   28.5714285714% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“Do. Or do not. There is no try.” – Yoda';
   }
   42.8571428571% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“Somebody has to save our skins.” – Leia Organa';
   }
   57.1428571429% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“In my experience there is no such thing as luck.” – Obi-Wan Kenobi';
   }
   71.4285714286% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“I find your lack of faith disturbing.” – Darth Vader';
   }
   85.7142857143% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“It’s a trap!” – Admiral Ackbar';
   }
 }
 @keyframes change-text {
   0% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“So this is how liberty dies…with thunderous applause.” – Padmé Amidala';
   }
   14.2857142857% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“Your eyes can deceive you. Don’t trust them.” – Obi-Wan Kenobi';
   }
   28.5714285714% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“Never tell me the odds.” – Han Solo';
   }
   42.8571428571% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“Mind tricks don’t work on me.” – Watto';
   }
   57.1428571429% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“Great, kid. Don’t get cocky.” – Han Solo';
   }
   71.4285714286% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“Stay on target.” – Gold Five';
   }
   85.7142857143% {
-    content: '"This is a quote by a very well known person" \A - RAZRLAB';
+    content: '“This is a new day, a new beginning.” – Ahsoka Tano';
   }
 }
 @-webkit-keyframes slide {
