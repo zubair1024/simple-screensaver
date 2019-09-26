@@ -1,6 +1,12 @@
-html, body {
-    height: 100%;
-    margin: 0;
+@font-face {
+  font-family: DubaiFont;
+  src: url(./fonts/webfonts/DubaiW23-Regular.woff);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
 .quotes-container {
@@ -8,7 +14,8 @@ html, body {
   width: 100%;
   min-height: 100%;
   background-color: #343338;
-  font-family: sans-serif;
+  /* font-family: DubaiFont, sans-serif; */
+  font-family: "Cairo", sans-serif;
   font-size: 2em;
   background: linear-gradient(-45deg, #000505, #0e402d, #295135, #5a6650);
   background-size: 400% 400%;
@@ -53,48 +60,48 @@ html, body {
 }
 @-webkit-keyframes change-text {
   0% {
-    content: '“It’s not my fault.” – Han Solo';
+    content: "“It’s not my fault.” – Han Solo";
   }
   14.2857142857% {
-    content: '“Your focus determines your reality.” – Qui-Gon Jinn';
+    content: "“Your focus determines your reality.” – Qui-Gon Jinn";
   }
   28.5714285714% {
-    content: '“Do. Or do not. There is no try.” – Yoda';
+    content: "“Do. Or do not. There is no try.” – Yoda";
   }
   42.8571428571% {
-    content: '“Somebody has to save our skins.” – Leia Organa';
+    content: "“Somebody has to save our skins.” – Leia Organa";
   }
   57.1428571429% {
-    content: '“In my experience there is no such thing as luck.” – Obi-Wan Kenobi';
+    content: "“In my experience there is no such thing as luck.” – Obi-Wan Kenobi";
   }
   71.4285714286% {
-    content: '“I find your lack of faith disturbing.” – Darth Vader';
+    content: "“I find your lack of faith disturbing.” – Darth Vader";
   }
   85.7142857143% {
-    content: '“It’s a trap!” – Admiral Ackbar';
+    content: "“It’s a trap!” – Admiral Ackbar";
   }
 }
 @keyframes change-text {
   0% {
-    content: '“So this is how liberty dies…with thunderous applause.” – Padmé Amidala';
+    content: "“.لا، انا ابوك” – Darth Vader";
   }
   14.2857142857% {
-    content: '“Your eyes can deceive you. Don’t trust them.” – Obi-Wan Kenobi';
+    content: "“Your eyes can deceive you. Don’t trust them.” – Obi-Wan Kenobi";
   }
   28.5714285714% {
-    content: '“Never tell me the odds.” – Han Solo';
+    content: "“دبي” – Padmé Amidala";
   }
   42.8571428571% {
-    content: '“Mind tricks don’t work on me.” – Watto';
+    content: "“Mind tricks don’t work on me.” – Watto";
   }
   57.1428571429% {
-    content: '“Great, kid. Don’t get cocky.” – Han Solo';
+    content: "“Great, kid. Don’t get cocky.” – Han Solo";
   }
   71.4285714286% {
-    content: '“Stay on target.” – Gold Five';
+    content: "“Stay on target.” – Gold Five";
   }
   85.7142857143% {
-    content: '“This is a new day, a new beginning.” – Ahsoka Tano';
+    content: "“This is a new day, a new beginning.” – Ahsoka Tano";
   }
 }
 @-webkit-keyframes slide {
@@ -130,6 +137,6 @@ html, body {
   }
 }
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
